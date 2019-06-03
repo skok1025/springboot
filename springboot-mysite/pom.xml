@@ -85,7 +85,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://localhost:8080/manager/text</url>
-					<path>/mysite2</path>
+					<path>/mysite5</path>
 					<username>admin</username>
 					<password>manager</password>
 				</configuration>
