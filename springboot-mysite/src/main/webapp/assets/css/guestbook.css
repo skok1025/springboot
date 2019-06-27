@@ -27,3 +27,99 @@
 #guestbook.delete-message p	{ padding:100px; height:50px; text-align:center }
 
 #guestbook textarea#content	{ width: 100%; border:none; height: 100px; resize: none; outline: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#guestbook-timeline h1{
+	margin:20px;
+	background-image: url("/assets/images/guestbook.png") ;
+	background-size:1.5em;
+	background-repeat: no-repeat;
+	text-indent: 7%;
+}
+
+#form-container{
+	border: 0px solid;
+}
+#form-container *{
+	margin: 0px auto;
+
+}
+
+#guestbook-timeline input, #guestbook-timeline textarea{
+	display:block;
+	width: 90%;
+	margin-bottom: 10px;
+	align-items: center;
+}
+
+#guestbook-timeline input[type='submit']{
+	background-color: white;
+	color: black; 
+	border: 1px solid gray;
+}	
+
+#list-guestbook{
+	margin-top: 10px;
+}
+
+#list-guestbook > li{
+	display: block;
+	margin: 0 30px;
+	
+}
+
+#list-guestbook > li .profile-box{
+	width: 50px;
+	height: 50px;
+	border: 0px solid;
+	float: left;
+	position: relative;
+	
+	background-image: url("/assets/images/user.png") ;
+	background-size:4em;
+	background-repeat: no-repeat;
+}
+
+#list-guestbook > li .content-box{
+	
+	color:gray;
+	width: 450px;
+	height: 50px;
+	border: 0px solid;
+	float: left;
+}
+
+#list-guestbook > li .content-box p{
+	display:block;
+	background-color: #FAFAFA;
+	width:inherit;
+	border: 1px solid gray;
+}
+
+#list-guestbook > li a {
+	display:block;
+	overflow:hidden;
+	text-indent:1000%;
+	text-decoration:none;
+	width:20px;
+	height:19px;
+	position: absolute;
+	border:0px solid red;
+	right: -5px;
+	bottom: 0px;
+	background-image: url("/assets/images/delete.png");
+	background-repeat: no-repeat;
+	background-size: 1.6em;
+	z-index: 1;
+}
